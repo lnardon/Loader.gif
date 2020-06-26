@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landingContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.subDiv{
+    display: flex;
+}
+
+.loadersContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.loaderDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+}
+
+.loaderName {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.testBtn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.downloadBtn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
