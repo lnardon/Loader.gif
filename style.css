@@ -119,3 +119,16 @@ footer {
     height: 25px;
     cursor: pointer;
 }
+
+.down {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 92%;
+    animation: downArrow 1.7s ease forwards infinite;
+}
+
+@keyframes downArrow {
+    from {top: 92%;}
+    to {top: 95%}
+  }
